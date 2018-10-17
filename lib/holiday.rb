@@ -70,7 +70,6 @@ def all_supplies_in_holidays(holiday_hash)
       binding.pry
       puts "  #{
         holiday_format = holiday.split("_").each {|word| word.capitalize!}
-        binding.pry
       }: #{supplies.join(', ')}"
     end
   end
